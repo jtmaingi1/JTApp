@@ -36,3 +36,7 @@ Route::resource('posts','PostsController');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
+
+Route::post('inc/contact', function() {
+    return json_encode( 'we are getting POST response');
+});
