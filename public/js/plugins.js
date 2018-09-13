@@ -283,12 +283,12 @@ URL: https://themeforest.net/user/ahmedbeheiry
 			// Ajax    
 			$.ajax({
 				type: "POST",
-				_url: "inc/contact.php",
+				_url: $(contactForm).attr('action'),
 
 				data: "name=" + name + "&mail=" + mail + "&message=" + message,
 				 beforeSend: function(text) {
 			 	submitBtn.html("Sending...");
-			 	formResponse.fadeOut(500).text("");
+			 	formResponse.fadeOut(200).text("");
 			 },
 				success: function (text) {
 					if(text == "success") {
@@ -299,7 +299,33 @@ URL: https://themeforest.net/user/ahmedbeheiry
 						formResponse.text(text).fadeIn(1000);
 					}
 				}
-			});
+			})
+			.done(function(response) {
+				// Make sure that the formMessages div has the 'success' class.
+				$(formResponse).removeClass('error');
+				$(formResponse).addClass('success');
+	
+				// Set the message text.
+				$(formResponse).text(response);
+	
+				// Clear the form.
+				$('#name').val('');
+				$('#email').val('');
+				$('#message').val('');
+			})
+			.fail(function(data) {
+				// Make sure that the formMessages div has the 'error' class.
+				$(formResponse).removeClass('success');
+				$(formResponse).addClass('error');
+	
+				// Set the message text.
+				if (data.responseText !== '') {
+					$(formResponse).text(data.responseText);
+				} else {
+					$(formResponse).text('Oops! An error occured and your message could not be sent.');
+				}
+			})
+			;
 		}
 
 	// Moving placeholder on focus on any input in contact-me section //
