@@ -52,7 +52,7 @@
 				<canvas id="demo-canvas"></canvas>
 				<div class="content center">
 					<div class="container">
-						<p>Welcome to Mr. JT's Profile - Yeah it's me!</p>
+						<p>Welcome to Mr. JT's Profile !</p>
 						<h1>JT Maingi</h1>
 						<p>WebAPP & Mobile developer</p>
 						<a href="#about-me">Read more</a>
@@ -136,7 +136,7 @@
 									</ul></div>
 							</div>
 							<div class="acc-item">
-								<div class="acc-title"><i class="fa fa-plus"></i> What is my Personal Interests?</div>
+								<div class="acc-title"><i class="fa fa-plus"></i> What are my Personal Interests?</div>
 								<div class="acc-content">Learning new technologies especially in Web-based and mobile Applications,  Participating in youth outreach programmes, Reading self-development literature, Travelling, and Music</div>
 							</div>
 							<div class="acc-item">
