@@ -263,6 +263,12 @@ URL: https://themeforest.net/user/ahmedbeheiry
 	/* ---------------------------------------------------
 		14 - Contact Form Validation
 	----------------------------------------------------- */
+	$.ajaxSetup({
+		headers: {
+			'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+		}
+	});
+
 	var contactForm = $("#contact-form"),
 		submitBtn = $(".submit-btn"),
 		formResponse = $(".form-response");
@@ -286,7 +292,19 @@ URL: https://themeforest.net/user/ahmedbeheiry
 				_url: $(contactForm).attr('action'),
 
 				data: "name=" + name + "&mail=" + mail + "&message=" + message,
-		
+				beforeSend: function(text) {
+					submitBtn.html("Sending...");
+					formResponse.fadeOut(200).text("");
+				 },
+					success: function (text) {
+						if(text == "success") {
+							contactForm[0].reset();
+							formResponse.text("Thanks! Your message sent correctly.").fadeIn(1000);
+							submitBtn.html("Send Message");
+						} else {
+							formResponse.text(text).fadeIn(1000);
+						}
+					}
 			})
 			.done(function(response) {
 				// Make sure that the formMessages div has the 'success' class.
