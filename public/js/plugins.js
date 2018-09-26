@@ -263,7 +263,7 @@ URL: https://themeforest.net/user/ahmedbeheiry
 	/* ---------------------------------------------------
 		14 - Contact Form Validation
 	----------------------------------------------------- */
-	/* $.ajaxSetup({
+	$.ajaxSetup({
 		headers: {
 			'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
 		}
@@ -292,7 +292,7 @@ URL: https://themeforest.net/user/ahmedbeheiry
 				_url: $(contactForm).attr('action'),
 
 				data: "name=" + name + "&mail=" + mail + "&message=" + message,
-				beforeSend: function(text) {
+				beforeSend: function(_text) {
 					submitBtn.html("Sending...");
 					formResponse.fadeOut(200).text("");
 				 },
@@ -342,7 +342,7 @@ URL: https://themeforest.net/user/ahmedbeheiry
 		} else {
 			$(this).addClass("has-value");
 		}
-	}); */
+	});
 })(jQuery);
 
 /* ---------------------------------------------------
