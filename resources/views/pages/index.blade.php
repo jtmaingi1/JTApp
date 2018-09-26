@@ -387,7 +387,7 @@
 							
 								<?php endif; ?>					
 						<!-- Contact-Me Form -->
-						<form method="post" action="inc.contact" data-toggle="validator" role="form" id="contact-form">
+						<form method="post" action="inc/contact" data-toggle="validator" role="form" id="contact-form">
 							@csrf
 							<div class="form-group has-feedback">
 								<input type="text" name="name" id="name" class="form-control" data-error="Please, Enter Your Name." required>
