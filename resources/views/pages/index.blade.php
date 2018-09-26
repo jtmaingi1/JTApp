@@ -1,4 +1,3 @@
-<?php $msg =''; ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -382,10 +381,7 @@
 				</div>
 				<div class="row form-wrapper">
 					<div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
-						<?php if($msg != ''): ?>
-								<div class="alert <?php echo $msgClass; ?>"> <?php echo $msg; ?> </div>
-							
-								<?php endif; ?>					
+					
 						<!-- Contact-Me Form -->
 						<form method="post" action="inc/contact" data-toggle="validator" role="form" id="contact-form">
 							@csrf
@@ -404,17 +400,24 @@
 								<label for="message">Your Message Here</label>
 								<span class="help-block with-errors"></span>
 							</div>
+							<div class="form-group has-feedback">
+								<input type="tel" name="phone" id="phone" class="form-control" placeholder="E.g. 254720123456"
+								pattern="[0-9]{3}[0-9]{3}[0-9]{6}" data-error="Please input a phone number">
+								<label for="phone">Your Phone number *Optional</label>
+								<span class="help-block with-errors"></span>
+							</div>
 							{{-- <div class="form-group has-feedback">
 							<div class="g-recaptcha" data-sitekey="6LdIgV8UAAAAAPDuJXO953Oluh9sldWXbpXFCwr5" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
                             	<input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
 								<span class="help-block with-errors"></span>
 							</div> --}}
-
+							
 							<div class="submit-container">
 								<button type="submit" name="submit" class="btn submit-btn">Send Your Message</button>
 							</div>
 							<p class="form-response"></p>
 						</form> <!-- End Form -->
+						@include('inc.messages')
 					</div>
 				</div>
 				<!-- Contact Details -->
