@@ -263,12 +263,7 @@ URL: https://themeforest.net/user/ahmedbeheiry
 	/* ---------------------------------------------------
 		14 - Contact Form Validation
 	----------------------------------------------------- */
-	$.ajaxSetup({
-		headers: {
-			'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-		}
-	});
-
+	
 	var contactForm = $("#contact-form"),
 		submitBtn = $(".submit-btn"),
 		formResponse = $(".form-response");
