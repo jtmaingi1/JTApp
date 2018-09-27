@@ -403,7 +403,7 @@
 							<div class="form-group has-feedback">
 								<input type="tel" name="phone" id="phone" class="form-control"
 								pattern="[0-9]{3}[0-9]{3}[0-9]{6}" data-error="Please input a phone number">
-								<label for="phone">Your Phone number E.g. 254720123456  *Optional</label>
+								<label for="phone">Phone E.g. 254720123456  *Optional</label>
 								<span class="help-block with-errors"></span>
 							</div>
 							{{-- <div class="form-group has-feedback">
@@ -474,7 +474,7 @@
 								<i class="fa fa-facebook"></i>
 							</a>
 							<!-- Twitter Link -->
-							<a href="#" class="icon tw">
+							<a href="https://twitter.com/JeffMaingi" class="icon tw">
 								<i class="fa fa-twitter"></i>
 								<i class="fa fa-twitter"></i>
 							</a>
@@ -483,13 +483,8 @@
 								<i class="fa fa-github"></i>
 								<i class="fa fa-github"></i>
 							</a>
-							<!-- Google Plus Link -->
-							<a href="#" class="icon gp">
-								<i class="fa fa-google-plus"></i>
-								<i class="fa fa-google-plus"></i>
-							</a>
 							<!-- Linkedin Link -->
-							<a href="#" class="icon lin">
+							<a href="https://www.linkedin.com/in/jtmaingi" class="icon lin">
 								<i class="fa fa-linkedin"></i>
 								<i class="fa fa-linkedin"></i>
 							</a>
@@ -497,6 +492,11 @@
 							<a href="#" class="icon pin">
 								<i class="fa fa-pinterest"></i>
 								<i class="fa fa-pinterest"></i>
+							</a>
+							<!-- Google Plus Link -->
+							<a href="#" class="icon gp">
+								<i class="fa fa-google-plus"></i>
+								<i class="fa fa-google-plus"></i>
 							</a>
 						</div>
 					</div>
