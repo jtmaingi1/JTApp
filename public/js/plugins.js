@@ -294,17 +294,8 @@ URL: https://themeforest.net/user/ahmedbeheiry
 				data: "name=" + name + "&mail=" + mail + "&message=" + message,
 				beforeSend: function(_text) {
 					submitBtn.html("Sending...");
-					formResponse.fadeOut(200).text("");
-				 },
-					success: function (text) {
-						if(text == "success") {
-							contactForm[0].reset();
-							formResponse.text("Thanks! Your message sent correctly.").fadeIn(1000);
-							submitBtn.html("Send Message");
-						} else {
-							formResponse.text(text).fadeIn(1000);
-						}
-					}
+				 }
+					
 			})
 			.done(function(response) {
 				// Make sure that the formMessages div has the 'success' class.
@@ -313,6 +304,9 @@ URL: https://themeforest.net/user/ahmedbeheiry
 	
 				// Set the message text.
 				$(formResponse).text(response);
+				contactForm[0].reset();
+							formResponse.text("Thanks! Your message sent correctly.").fadeIn(1000);
+							submitBtn.html("Message Send");
 	
 				// Clear the form.
 				$('#name').val('');
