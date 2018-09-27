@@ -401,9 +401,9 @@
 								<span class="help-block with-errors"></span>
 							</div>
 							<div class="form-group has-feedback">
-								<input type="tel" name="phone" id="phone" class="form-control" placeholder="E.g. 254720123456"
+								<input type="tel" name="phone" id="phone" class="form-control"
 								pattern="[0-9]{3}[0-9]{3}[0-9]{6}" data-error="Please input a phone number">
-								<label for="phone">Your Phone number *Optional</label>
+								<label for="phone">Your Phone number E.g. 254720123456  *Optional</label>
 								<span class="help-block with-errors"></span>
 							</div>
 							{{-- <div class="form-group has-feedback">
@@ -469,7 +469,7 @@
 						<!-- Social links -->
 						<div class="icon-wrapper center">
 							<!-- Facebook Link -->
-							<a href="#" class="icon fb">
+							<a href="https://www.facebook.com/Mr.JT.Maingi" class="icon fb">
 								<i class="fa fa-facebook"></i>
 								<i class="fa fa-facebook"></i>
 							</a>
@@ -479,7 +479,7 @@
 								<i class="fa fa-twitter"></i>
 							</a>
 							<!-- Github Link -->
-							<a href="#" class="icon gh">
+							<a href="https://github.com/jtmaingi1" class="icon gh">
 								<i class="fa fa-github"></i>
 								<i class="fa fa-github"></i>
 							</a>
