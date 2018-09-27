@@ -280,7 +280,7 @@ URL: https://themeforest.net/user/ahmedbeheiry
 				submitForm();
 			}
 		});
-		// Submit Form
+		/* // Submit Form
 		function submitForm() {
 			// Some Variables
 			var name = $("#name").val(),
@@ -326,7 +326,7 @@ URL: https://themeforest.net/user/ahmedbeheiry
 				}
 			})
 			;
-		}
+		} */
 
 	// Moving placeholder on focus on any input in contact-me section //
 	$(".contact .form-control").focusout(function() {
