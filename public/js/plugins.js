@@ -264,7 +264,7 @@ URL: https://themeforest.net/user/ahmedbeheiry
 		14 - Contact Form Validation
 	----------------------------------------------------- */
 	
-	var contactForm = $("#contact-form"),
+	/* var contactForm = $("#contact-form"),
 		submitBtn = $(".submit-btn"),
 		formResponse = $(".form-response");
 	contactForm.validator().on("submit", function (e) {
@@ -274,7 +274,7 @@ URL: https://themeforest.net/user/ahmedbeheiry
 				e.preventDefault();
 				submitForm();
 			}
-		});
+		}); */
 		/* // Submit Form
 		function submitForm() {
 			// Some Variables
