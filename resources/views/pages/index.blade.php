@@ -89,6 +89,7 @@
 					<div class="my-pic center col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
 						<img src="img/my-face.png" alt="my profile">
 					</div>
+					
 					<div class="introduction col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
 						<h2 class="h2">Jefferson Maingi</h2>
 						<div class="heading-line"></div>
@@ -97,6 +98,15 @@
 							I continue to be a student of life in these matters as well as in seeking to fulfil the purposes for which the Almighty God created me for, and I am grateful for the opportunity to serve His people on planet earth.
 						</p>
 					</div>
+					<div class="introduction col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+							<p class="intro"> If you want to support me to study more or you may wish to buy me a cup of coffee I wouldn't mind, much appreciated and God bless! </p>
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+								<input type="hidden" name="cmd" value="_s-xclick">
+								<input type="hidden" name="hosted_button_id" value="KXYNHYJECU2TE">
+								<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+								<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+								</form>
+						</div>
 				</div>
 				<div class="row">
 					<div class="profile col-sm-4 col-xs-12 wow fadeInUp text-center" data-wow-duration="0.5s" data-wow-offset="200">
