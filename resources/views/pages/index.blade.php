@@ -99,7 +99,7 @@
 						</p>
 					</div>
 					<div class="introduction col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
-							<p class="intro"> If you want to support me to study more or you may wish to buy me a cup of coffee I wouldn't mind, much appreciated and God bless! </p>
+							<p class="intro"> If you would like to support me in what I do, to study more or you may wish to buy me a cup of coffee I wouldn't mind, much appreciated and God bless! </p>
 							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 								<input type="hidden" name="cmd" value="_s-xclick">
 								<input type="hidden" name="hosted_button_id" value="KXYNHYJECU2TE">
