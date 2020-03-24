@@ -14,7 +14,7 @@
                       <a class="nav-link" href="/dashboard">Dashboard <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/about">Profile</a>
+                      <a class="nav-link" href="/">JT's Profile</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="/services">Services</a>

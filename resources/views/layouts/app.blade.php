@@ -30,11 +30,12 @@
 </head>
 <body>
     <div id="app">
-         @include('inc.navbar')
-         @include('inc.contact')
+       @include('inc.navbar')
+    
             <div class="container">
                
         <main class="py-4">
+            @include('inc.messages')
             @yield('content')
         </main>
         </div>

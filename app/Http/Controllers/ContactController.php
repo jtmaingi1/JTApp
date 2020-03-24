@@ -22,7 +22,7 @@ class ContactController extends Controller
         $message->phone = $request->input('phone');
         $message->save();
 
-          // Only process POST reqeusts.
+          // Only process POST requests.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));

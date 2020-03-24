@@ -56,6 +56,7 @@
 						<p>WebAPP & Mobile developer</p>
 						<a href="#about-me">Read more</a>
 						<a href="#portfolio">my works</a>
+						<a href="/dashboard">JT App</a>
 					</div> <!-- End container -->
 				</div>
 				<div class="mouse" id="mouse"></div>  <!-- Mouse Icon -->
@@ -99,7 +100,7 @@
 						</p>
 					</div>
 					<div class="introduction col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
-							<p class="intro"> If you would like to support me in what I do, to study more or you may wish to buy me a cup of coffee I wouldn't mind, much appreciated and God bless! </p>
+							<p class="intro"> If you would like to support me in what I do, share information, please click the following link to <a class="brand-success" href="#contact-me"> Get in touch</a>. As well if it pleases you to support by buying for me a cup of coffee I wouldn't mind, much appreciated and God bless! </p>
 							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 								<input type="hidden" name="cmd" value="_s-xclick">
 								<input type="hidden" name="hosted_button_id" value="KXYNHYJECU2TE">
@@ -511,7 +512,7 @@
 						</div>
 					</div>
 					<div class="col-md12 col-xs-12 copyright">
-						<h6>&copy; Mr. JT @ 2018. - Jefferson Maingi </h6>
+						<h6>&copy; Mr. JT @ 2020. - Jefferson Maingi </h6>
 					</div>
 				</div>	
 			</div>
